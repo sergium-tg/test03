@@ -1,0 +1,19 @@
+
+[project]
+name = "api-web-proyecto-v03"
+version = "0.3.0"
+description = "API Web con JWT, Rate Limiting y SQLite para gestión de Clientes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.5",
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    "slowapi>=0.1.9",
+    "pydantic>=2.0.0",
+    "pydantic[email]>=2.0.0",
+    "python-multipart>=0.0.9",
+    "sqlalchemy>=2.0.0",
+    "python-dotenv>=1.0.0"
+]
